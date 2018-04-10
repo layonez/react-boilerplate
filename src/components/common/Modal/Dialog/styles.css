@@ -1,0 +1,61 @@
+@import "styleVars";
+
+.header {
+  :global {
+    composes: clearfix;
+  }
+
+  margin: 1px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+  align-items: center;
+
+  > .tittle {
+    float: left;
+    margin: 0px;
+  }
+
+  > .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    float: right;
+    width: 21px;
+    height: 21px;
+    border-radius: var(--border-radius);
+    transition: all 0.3s;
+    margin-left: auto;
+    order: 2;
+  }
+
+  > .close:hover {
+    background: #eee;
+  }
+}
+
+.content {
+  padding: 15px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.footer {
+  :global {
+    composes: clearfix;
+  }
+
+  margin: 10px;
+  align-self: flex-end;
+  min-height: var(--form-element-height);
+
+  > button + button {
+    margin-right: 5px;
+  }
+
+  > button {
+    float: right;
+    min-width: 50px;
+  }
+}

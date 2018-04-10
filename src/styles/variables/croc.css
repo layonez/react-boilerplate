@@ -1,0 +1,6 @@
+:root {
+  --primary-color: #67bc6c;
+  --secondary-color: #ff6578;
+  --primary-btn-color: var(--primary-color);
+  --secondary-btn-color: var(--secondary-color);
+}

@@ -1,0 +1,12 @@
+.form {
+  font-weight: bold;
+}
+
+.navigationPanel {
+  width: 20%;
+}
+
+.contentContainer {
+  width: 80%;
+  padding-left: 50px;
+}

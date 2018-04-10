@@ -1,0 +1,30 @@
+@import 'styleVars';
+
+/* ---- croc ----- */
+.croc-main-logo-ru {
+  display: block;
+  height: 46px;
+}
+
+.croc-main-logo-en {
+  composes: croc-main-logo-ru;
+}
+
+.croc-christmas-logo-ru {
+  width: 140px;
+  height: 140px;
+}
+
+.croc-christmas-logo-en {
+  composes: croc-christmas-logo-ru;
+}
+
+/* ---- jump ----- */
+.jump-main-logo-ru {
+  width: 100px;
+  height: 40px;
+}
+
+.jump-main-logo-en {
+  composes: jump-main-logo-ru;
+}

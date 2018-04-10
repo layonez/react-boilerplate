@@ -1,0 +1,13 @@
+:root {
+  --site-width: 980px;
+  --form-element-height: 36px;
+  --focus-color: #83b2ba;
+  --error-color: #f44336;
+  --border-radius: 2px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

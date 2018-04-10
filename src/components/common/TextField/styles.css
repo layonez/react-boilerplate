@@ -1,0 +1,72 @@
+@import 'styleVars';
+
+.label-text {
+  display: inline-block;
+  color: #6d6d6d;
+  cursor: pointer;
+}
+
+.field-container {
+  position: relative;
+  height: var(--form-element-height);
+}
+
+.left-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+  svg {
+    color: #6d6d6d;
+    width: 20px;
+    height: @width;
+    min-height: 100%;
+    min-width: 100%;
+  }
+}
+
+.right-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+
+  svg {
+    color: #6d6d6d;
+    width: 20px;
+    height: 20px;
+    min-height: 100%;
+    min-width: 100%;
+  }
+}
+
+.text-field {
+  display: block;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: 0;
+  outline: none;
+  padding: 8px 6px;
+  border-bottom: 2px solid #eee;
+
+  &:focus,
+  &:active {
+    border-color: var(--focus-color);
+  }
+}
+
+.has-left-icon {
+  padding-left: 32px;
+}
+
+.has-right-icon {
+  padding-right: 32px;
+}

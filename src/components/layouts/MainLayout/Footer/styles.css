@@ -1,0 +1,49 @@
+@import 'styleVars';
+
+.footer {
+  display: block;
+  flex-shrink: 0;
+  width: 100%;
+  background: #ededed;
+  padding: 20px 0;
+  color: #84848b;
+
+  a {
+    color: var(--primary-color);
+  }
+}
+
+.container {
+  display: block;
+  width: var(--site-width);
+  margin: 0 auto;
+}
+
+.companyInfo {
+  display: inline-block;
+  float: left;
+
+  span {
+    display: block;
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.contacts {
+  display: inline-block;
+  float: right;
+  text-align: right;
+
+  span {
+    display: block;
+  }
+
+  a {
+    display: inline-block;
+    padding-left: 4px;
+  }
+}
